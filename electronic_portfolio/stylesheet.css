@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+	background-image: url("https://i.pinimg.com/originals/bb/86/10/bb861023558c9a24a81f83f519df09a1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+}
+hr {
+	border: none;
+	border-top: 2px solid silver;
+	margin-left: 407px;
+}
+.navbar {
+	overflow: hidden;
+    background-color: gray;
+}
+.navbar ul {
+    list-style-type: none;
+}
+.navbar ul li {
+	float: right;
+    padding: 34px 26px;
+}
+.navbar ul li a {
+	text-decoration: none;
+	font-size: 25px;
+	color: LightSteelBlue;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+.navbar li a:hover {
+	border-bottom: 2px solid SkyBlue;
+}
+.navbar ul li .active {
+	color: Turquoise;
+	border-bottom: 2px solid SkyBlue;
+}
+.name {
+	float: left;
+	margin-top: 16px;
+	margin-left: 25px;
+	position: absolute;
+}
+.name img:hover {
+	width: 450px;
+	height: 91px;
+}
+.contact_information {
+	margin: 50px;
+}
+.comtact_information h4 {
+	padding-bottom: 20px;
+}
+.contact_information_image img {
+	right: 0;
+	width: 400px;
+	height: 590px;
+	position: absolute;
+}
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	color: CadetBlue;
+}
+h2 {
+	font-family: 'Raleway', sans-serif;
+	color: LightSlateGray;
+}
+h2 input {
+	width: 370px;
+}
+p {
+	font-family: 'Raleway', sans-serif;
+	color: LightSlateGray;
+}
+.biography h1 {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.biography p {
+	margin-left: 50px;
+}
+
+.biography img {
+    float: right;
+}
+
+.accomplishments p {
+	font-family: 'Raleway', sans-serif;
+	color: LightSlateGray;
+	margin: 50px;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.accomplishments p a {
+	text-decoration: none;
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: Turquoise;
+	border-bottom: 2px solid SkyBlue;
+}
+.accomplishments img {
+    float: right;
+    width: 500px;
+    height: 500px;	
+}
